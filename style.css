@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif; }
+
+.row:before,
+.row:after {
+  content: "";
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+.jumbotron {
+  height: 100vh;
+  background-image: url("https://i.imgur.com/GVURsw8.png");
+  background-size: cover;
+  backgroun-repeat: no-repeat;
+  background-position: 80% 70%;
+  background-attachment: fixed;
+  margin-bottom: 10vh; }
+  .jumbotron h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 54px; }
+  .jumbotron p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px; }
+  .jumbotron #mouse:hover {
+    cursor: pointer; }
+
+.about-us {
+  min-height: 40vh;
+  margin-bottom: 10vh; }
+  .about-us fieldset {
+    width: 70vw;
+    border: 2px solid #3c3c3c;
+    display: inline-block;
+    margin: 4rem auto; }
+    .about-us fieldset legend {
+      width: auto;
+      border-bottom: none;
+      font-size: 34px;
+      font-weight: 700;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      color: #3c3c3c; }
+    .about-us fieldset p {
+      color: #3c3c3c;
+      font-size: 16px;
+      font-weight: 300;
+      padding: 20px 40px; }
+
+.services {
+  min-height: 40vh;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 10vh; }
+  .services .carousel-caption {
+    position: absolute;
+    width: 70vw;
+    border: 2px solid #fff;
+    display: inline-block;
+    margin: 4rem auto; }
+    .services .carousel-caption legend {
+      width: auto;
+      border-bottom: none;
+      font-size: 34px;
+      font-weight: 700;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      color: #fff; }
+    .services .carousel-caption p {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      padding: 20px 40px; }
+  .services img {
+    min-height: 40vh; }
+
+.what-we-do {
+  min-height: 100vh;
+  margin-bottom: 10vh; }
+  .what-we-do fieldset {
+    width: 70vw;
+    border: 2px solid #3c3c3c;
+    display: inline-block;
+    margin: 4rem auto; }
+    .what-we-do fieldset legend {
+      width: auto;
+      border-bottom: none;
+      font-size: 34px;
+      font-weight: 700;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      color: #3c3c3c; }
+    .what-we-do fieldset p {
+      color: #3c3c3c;
+      font-size: 14px;
+      font-weight: 300;
+      padding: 20px 40px; }
+    .what-we-do fieldset img {
+      padding: 10px; }
+      .what-we-do fieldset img:hover {
+        cursor: pointer;
+        transform: scale(1.1); }
+
+.gallery {
+  min-height: 50vh;
+  margin-bottom: 10vh; }
+  .gallery .row {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0; }
+    .gallery .row [class*="col-"] {
+      padding: 0; }
+      .gallery .row [class*="col-"] .layer {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start; }
+        .gallery .row [class*="col-"] .layer:hover {
+          cursor: pointer;
+          background-color: #3c3c3c;
+          opacity: 0.5;
+          transition: 0.8s;
+          padding: 2px; }
+        .gallery .row [class*="col-"] .layer h1 {
+          color: #fff;
+          font-weight: 700;
+          font-size: 30px;
+          padding: 20px; }
+      .gallery .row [class*="col-"] img {
+        display: block;
+        width: 100%;
+        min-height: 200px;
+        background-size: cover !important;
+        padding: 2px; }
+
+.contact-us {
+  min-height: 40vh;
+  margin-bottom: 10vh; }
+  .contact-us fieldset {
+    width: 70vw;
+    border: 2px solid #3c3c3c;
+    display: inline-block;
+    margin: 4rem auto; }
+    .contact-us fieldset legend {
+      width: auto;
+      border-bottom: none;
+      font-size: 30px;
+      font-weight: 700;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      color: #3c3c3c; }
+    .contact-us fieldset p {
+      color: #3c3c3c;
+      font-size: 16px;
+      font-weight: 300;
+      padding: 20px 40px; }
+    .contact-us fieldset button {
+      color: #fff;
+      background-color: #3c3c3c;
+      padding: 10px 30px;
+      border-radius: 0;
+      margin-top: 1rem;
+      margin-bottom: 3rem; }
+      .contact-us fieldset button:hover {
+        background-color: #fff;
+        color: #3c3c3c;
+        transition: 0.5s;
+        border: 2px solid #3c3c3c; }
+
+footer {
+  min-height: 20vh; }
+  footer h4 {
+    display: inline-block;
+    color: #3c3c3c;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 2rem; }
+  footer img, footer h4 {
+    padding-top: 5vh;
+    padding-bottom: 5vh; }
+
+/*# sourceMappingURL=style.css.map */
