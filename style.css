@@ -60,6 +60,8 @@
   margin-bottom: 10vh; }
   .services .carousel-caption {
     position: absolute;
+    left: 15%;
+    right: 15%;
     width: 70vw;
     border: 2px solid #fff;
     display: inline-block;
@@ -109,7 +111,9 @@
 
 .gallery {
   min-height: 50vh;
-  margin-bottom: 10vh; }
+  margin-bottom: 10vh;
+  padding-right: 0;
+  padding-left: 0; }
   .gallery .row {
     width: 100%;
     overflow: hidden;
@@ -188,5 +192,11 @@ footer {
   footer img, footer h4 {
     padding-top: 5vh;
     padding-bottom: 5vh; }
+
+@media (max-width: 768px) {
+  fieldset legend {
+    font-size: 22px;
+    padding-left: 1rem;
+    padding-right: 1rem; } }
 
 /*# sourceMappingURL=style.css.map */

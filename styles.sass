@@ -69,6 +69,8 @@ $color-graphite: #3c3c3c
     margin-bottom: 10vh 
     .carousel-caption
         position: absolute
+        left: 15%
+        right: 15%
         +fieldset($color-white, 34px, 700, $color-white, 14px, 300)
 
     img 
@@ -90,7 +92,9 @@ $color-graphite: #3c3c3c
 
 .gallery 
     min-height: 50vh
-    margin-bottom: 10vh 
+    margin-bottom: 10vh
+    padding-right: 0
+    padding-left: 0
     .row 
         width: 100%
         overflow: hidden
@@ -149,4 +153,10 @@ footer
     img, h4 
         padding-top: 5vh
         padding-bottom: 5vh
+
+@media (max-width: 768px)
+    fieldset legend 
+        font-size: 22px
+        padding-left: 1rem
+        padding-right: 1rem
 
